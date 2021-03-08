@@ -8,10 +8,10 @@ my_function("Tobias")
 my_function("Linus")
 
 #Unknown number of Argument
-def my_function(*kids):
+def my_function1(*kids):
   print("The youngest child is " + kids[2])
 
-my_function("Emil", "Tobias", "Linus")
+my_function1("Emil", "Tobias", "Linus")
 
 #Keyword
 def my_function(child3, child2, child1):
