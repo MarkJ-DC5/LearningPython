@@ -61,3 +61,18 @@ tri_recursion(6)
 #lambda arguments : expression
 x = lambda a, b : a * b
 print(x(5, 6))
+
+#Passing a function
+def inc(x):
+    return x + 1
+
+
+def dec(x):
+    return x - 1
+
+
+def operate(func, x):
+    result = func(x)
+    return result
+  
+#Decorators
